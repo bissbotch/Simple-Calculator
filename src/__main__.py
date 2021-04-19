@@ -22,7 +22,7 @@ def Main():
     print("Welcome to the calculator :) \n\n")
     print("***** Calculator Menu ***** \n")
     print (" 1) Addition\n 2) Subtraction\n 3) Multiplication\n 4) Division \n")
-    calcType = input("What type of calculation do you want to do? \n")
+    calcType = input("What type of calculation do you want to do? \ncalc>")
     
     if calcType == "1":
         print("Answer:", calc.addition(num1, num2))
